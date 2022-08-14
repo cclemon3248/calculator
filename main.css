@@ -1,0 +1,35 @@
+table {
+  margin: 100px auto;
+  min-width: 600px;
+  max-width: 600px;
+  height: 300px;
+  text-align: center;
+  font-size: 30px;
+  border-collapse: separate;
+  border-spacing: 4px;
+}
+
+td {
+  border: 1px solid black;
+  border-collapse: separate;
+  border-spacing: 10px;
+  user-select: none;
+}
+
+.black-td {
+  background: black;
+  color: white;
+  text-align: right;
+  padding-right: 15px;
+  font-size: 40px;
+}
+
+.table-td {
+  border-radius: 10px;
+  width: 25%;
+  background: #EEEEEE;
+}
+
+.click-td {
+  border: 5px solid blue;
+}
